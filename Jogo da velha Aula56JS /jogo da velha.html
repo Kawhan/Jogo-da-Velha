@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo da velha</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+
+    </script>
+</head>
+<body>
+
+    <div id="dvmenu"> <!--Div responsavel pelo painel do nosso jogo onde vai ter mensagem e o botão de começar jogo.-->
+        <div id="dvQuemComeca">Quem joga:</div>
+        <input type="button" value="Iniciar Jogo" onclick="inicia()">
+    </div>
+
+    <div id="dvJogo"> <!--Configirando as divs que serão responsaveis pelos locais onde vou colocar o x ou a bola no jogo da velha.Elementos de interação.-->
+        <div id="p1" class="posJogo" onclick="jogar(1)"></div>
+        <div id="p2" class="posJogo" onclick="jogar(2)"></div>
+        <div id="p3" class="posJogo" onclick="jogar(3)"></div>
+        <div id="p4" class="posJogo" onclick="jogar(4)"></div>
+        <div id="p5" class="posJogo" onclick="jogar(5)"></div>
+        <div id="p6" class="posJogo" onclick="jogar(6)"></div>
+        <div id="p7" class="posJogo" onclick="jogar(7)"></div>
+        <div id="p8" class="posJogo" onclick="jogar(8)"></div>
+        <div id="p9" class="posJogo" onclick="jogar(9)"></div>
+
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>

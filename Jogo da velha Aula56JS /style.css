@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/*Configuração relacionada a nossa div , ou seja, separação de quadrante e tals.*/
+
+#dvJogo{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;/* Ao chegar no limite de 160px o que não couber passa para baixo , então 160px só sabe 3 elementos , então ele passa para baixo.*/
+    align-content: flex-start;/*Começar o alinhamento do inicio.*/
+}
+
+.posJogo{/*Possição de cada jogo ou seja posição de cada quadrante.Está configurado em flex para controla a posição do x e da bola dentro de cada elemento.*/
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+/*Definindo qual borda que eu quero mostra em cada elemento ou sejá pro exemplo a primeira vai mostra uma borda na direita e em baixo , assim criando o quadrante que caracteriza nosso jogo da velha.*/
+
+#p1{
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#p2{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+#p3{
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+#p4{
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+#p5{
+    border: 1px solid #000;
+}
+
+
+#p6{
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+#p7{
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+
+#p8{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+
+#p9{
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+}
